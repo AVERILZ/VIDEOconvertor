@@ -7,10 +7,10 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-BOT_UN = config("BOT_UN", default=None)
+API_ID = config("API_ID", "28938535"  ( default=None, cast=int)
+API_HASH = config("API_HASH", "7b3be0a2d8c16bc23d340da4748b12ae" default=None)
+BOT_TOKEN = config("BOT_TOKEN", "7755169706:AAF4yb7XbvL8SsJHbcpnx_p5Q-vd8kpjERY" default=None)
+BOT_UN = config("BOT_UN", "Averilz_compbot" default=None)
 AUTH_USERS = config("AUTH_USERS", default=None, cast=int)
 LOG_CHANNEL = config("LOG_CHANNEL", default=None)
 LOG_ID = config("LOG_ID", default=None)
